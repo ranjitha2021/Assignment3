@@ -1,0 +1,33 @@
+1:output
+
+
+Python 3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:21:23) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+============= RESTART: C:\Users\pammi\Desktop\Ans03G(46)P(9).py.py =============
+enter a n number of people crossing the bridge:5
+enter the time for each people for crossing the bridge:
+1
+2
+4
+7
+11
+[1, 2, 4, 7, 11]
+total timings for each person crossing bridge is:  24
+>>> 
+
+2:output
+
+Python 3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:21:23) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+============= RESTART: C:\Users\pammi\Desktop\Ans03G(46)P(9).py.py =============
+enter a n number of people crossing the bridge:4
+enter the time for each people for crossing the bridge:
+1
+2
+5
+10
+[1, 2, 5, 10]
+total timings for each person crossing bridge is: 17
+>>> 
