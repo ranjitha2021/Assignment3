@@ -1,0 +1,66 @@
+1.OUTPUT
+
+Enter the number of people crossing the bridge:5
+Enter timings for each person:1,2,4,7,11
+person  0 timings  1
+person  1 timings  2
+person  2 timings  4
+person  3 timings  7
+person  4 timings  11
+total timings for each person crossing bridge is: 24 
+
+2. COMPUTATION OF TIME COMPLEXITY
+
+Basic Note ;greedy algorithm -optimal solution 
+
+greedy algorithm always seems to make a locally-optimal choice in the hope that choice will lead to globally-optinal solution 
+steps 1: sort ,select and check less or greater to pass the time that it will take to complete to-do item into cuurentTime.
+step 2:add one to numberofThings
+step 3:Repeat this as long as the currentTime is less than or equal to T.
+
+example:number of people crossung the bridge is 5 
+let x=(1,2,4,7,11)
+
+1:solution
+
+after 1st iteration
+<->currentTime=1(0)
+number ofThings=0
+
+after 2nd iteration
+<->currentTime is 1<2   
+number ofThings=2
+
+after 3rd iteration
+<->currentTime is 2<4 
+number ofThings=4
+
+after 4th iteration
+<->currentTime is 3<7
+number ofThings=7
+
+after 5th iteration
+<->currentTime is 4<11
+number ofThings=11 
+
+hence,
+c(0)=0
+c(1)=2
+c(2)=4
+c(3)=7
+c(4)=11 total 0+2+4+7+11=24(optimal solution)
+F=t1<t2............<tn
+
+:2 solution 
+<->if  1,2 go 
+return 2 
+
+<->if 2,4 go
+return 4 
+
+<->if 4,7 go
+return 7 
+
+<->if 7,11 go
+return 11 time taken =2+4+7+11=24(optimal solution)
+f=t1<t2.............<tn
